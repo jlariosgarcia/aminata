@@ -1,0 +1,10 @@
+.breadcrumb --> fichero bootrap.min.css sustituir la linea por background-color: #FFD336;
+.panel-heading--> fichero bootrap.min.css sustituir la linea por background-color: #FFD336;
+
+.nav > li > a:focus, .nav > li > a:hover en el fichero bootstrap.min.css sustituir por esta linea background-color: #9C0403;
+
+a:focus, a:hover {  en el fichero bootstrap.min.css sustituir por esta linea color: #FFF;
+
+a {   en el fichero bootstrap.min.css sustituir por esta linea  color: #000; linea 5
+
+.panel-body { en el fichero bootstrap.min.css añadir  esta linea 	

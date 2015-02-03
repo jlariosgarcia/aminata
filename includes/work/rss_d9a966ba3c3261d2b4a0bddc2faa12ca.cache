@@ -1,0 +1,52 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:18:"osCommerce Add-Ons";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2015 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:34:"Products Purchased with Date Range";s:4:"link";s:38:"http://addons.oscommerce.com/info/2568";s:11:"description";s:1745:"I corrected a problem with the Select statement in admin/stats_products_purchased.php that was causing the quantities and totals to be overstated for each row if you were running the report for all manufacturers. (Which is the default query that appears when you click on this Report in the Admin panel. I found it alarming that the default query would be wrong. Why have a default query if the results are wrong? It just makes you question the validity of the report in general...) <br />
+<br />
+If you're wondering, because the manufacturer_id logic was in an IF statement when it shouldn't have been, when run for all manufacturers it was multiplying the quantities and dollar values for each product by the total number of manufacturers since it was not matching on each manufacturer_id as it should have been. It was running through the entire list of generated entries 39 times, in my case. Once for each manufacturer. And it was adding the same values to the running totals each time, which resulted in values 39 times what they should have been. Sure, I'd love sales numbers like that...if they were correct.) <br />
+<br />
+This also corrected the problem where one manufacturer name was appearing for every single product, regardless of actual manufacturer. <br />
+ <br />
+I also added the english file from Actionwerx while I was at it, so the column names are all formatted correctly. <br />
+<br />
+FULL PACKAGE for English Language only<br />
+<br />
+Incidentally, I was initially thinking about adding a csv download option to this but I found that, because of the way the columns are formatted, it is very easy to just highlight and copy the report results from the screen, then paste them into Excel. (Or OpenOffice, in my case...)";s:7:"pubDate";s:31:"Wed, 28 Jan 2015 02:50:12 +0100";}i:1;a:4:{s:5:"title";s:34:"Admin Index Modules for Osc2.2rc2a";s:4:"link";s:38:"http://addons.oscommerce.com/info/9205";s:11:"description";s:572:"Dashboard modules included in OsCommerce 2.3. series, modified to work with OsCommerce 2.2rc2a like index modules.<br />
+<br />
+Only suitable for OsCommerce 2.2rc2a<br />
+and<br />
+2.2rc2a stores which have been upgraded to 2.3.x via upgrade instructions.<br />
+<br />
+- latest_addons.php<br />
+- latest_news.php<br />
+- reviews.php<br />
+- security_checks.php<br />
+- total_customers.php<br />
+- total_revenue.php<br />
+<br />
+- admin_logins.php (only osc2.2rca2 upgraded to 2.3)<br />
+<br />
+Includes english, german and spanish language files.<br />
+<br />
+Full Package";s:7:"pubDate";s:31:"Tue, 27 Jan 2015 18:19:22 +0100";}i:2;a:4:{s:5:"title";s:44:"Modal Info Popup Layer - for Bootstrap only!";s:4:"link";s:38:"http://addons.oscommerce.com/info/9204";s:11:"description";s:295:"Another fix to prevent that the Popup Manager entriy in toe Tools box is displayed, when the module is not installed.<br />
+<br />
+Weitere Korrektur, um zu verhindern, dass der Popup Manager Eintrag in der Tools-Box angezeigt wird, wenn das Modul nicht installiert ist.<br />
+<br />
+Full Package";s:7:"pubDate";s:31:"Tue, 27 Jan 2015 17:44:19 +0100";}i:3;a:4:{s:5:"title";s:25:"Master Products for V2.3x";s:4:"link";s:38:"http://addons.oscommerce.com/info/7738";s:11:"description";s:327:"- fixed small typo in install manual (special thanks to deibelswemmser from the german forum for pointing it out.)<br />
+- added SQL injection fix from Gergely (2013/07/01)<br />
+- added a new newshop file package for osC version 2.3.4<br />
+<br />
+All credits to Gergely for the conversion to 2.3.x and to the original coders.";s:7:"pubDate";s:31:"Tue, 27 Jan 2015 04:40:24 +0100";}i:4;a:4:{s:5:"title";s:22:"OsCommerce Empresa 3.0";s:4:"link";s:38:"http://addons.oscommerce.com/info/9203";s:11:"description";s:622:"Te explicamos como instalarlo f&aacute;cilmente en tu pc local antes de dar el salto al hosting.<br />
+<br />
+El programa de Facturaci&oacute;n online mas avanzado del momento y desarrollado con oscommerce permite la facturaci&oacute;n en comercio TPV y sincronizar la tienda online con proveedores incluido modelos dropshipping.<br />
+<br />
+Completamente gratis y en Espa&ntilde;ol<br />
+<br />
+Proveedores DropShipping Disponibles<br />
+Grutinet<br />
+TopOficina<br />
+Elleganze<br />
+LameeSoftware<br />
+Binary Sistem<br />
+Mayorista Canario<br />
+DreamLove<br />
+<br />
+Descarga y Tutoriales en<br />
+www.PatroCine.es";s:7:"pubDate";s:31:"Mon, 26 Jan 2015 19:39:16 +0100";}}s:11:"items_count";i:5;}
